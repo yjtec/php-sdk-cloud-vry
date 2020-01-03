@@ -1,0 +1,21 @@
+{
+    "name": "yjtec/php-sdk-cloud-vry",
+    "description": "单点登录",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "li2009436276",
+            "email": "571816409@qq.com"
+        }
+    ],
+    "autoload": {
+    "psr-4": {
+      "YjtecCloud\\Client\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "hprose/hprose": "v2.0.*"
+  }
+}
